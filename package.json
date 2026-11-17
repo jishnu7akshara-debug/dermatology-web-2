@@ -1,0 +1,24 @@
+{
+  "name": "aurelle-dermatology-clinic",
+  "version": "1.0.0",
+  "description": "High-performance production website for Aurelle Skin & Hair Clinic",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node verify-server.js"
+  },
+  "keywords": [
+    "dermatology",
+    "clinic",
+    "skin-care",
+    "hair-restoration",
+    "high-performance",
+    "production-ready"
+  ],
+  "author": "Aurelle Clinic",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
