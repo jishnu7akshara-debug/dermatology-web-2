@@ -139,7 +139,7 @@ section{position:relative}
 
 .hero-visual{position:relative;height:640px}
 .hero-card{position:absolute;border-radius:var(--r-xl);box-shadow:var(--shadow-lg)}
-.hero-card.skin{width:62%;height:78%;right:0;top:0}
+.hero-card.skin{width:65%;height:82%;right:0;top:0}
 .hero-card.hair img{object-position:center 30%}
 .hero-card.hair{width:46%;height:52%;left:0;bottom:0;border:8px solid var(--cream)}
 .hero-tag{position:absolute;display:flex;align-items:center;gap:10px;padding:10px 16px 10px 10px;border-radius:var(--r-pill);background:rgba(255,255,255,.85);backdrop-filter:blur(12px);font-size:13px;font-weight:500;box-shadow:var(--shadow-md);z-index:5}
@@ -199,8 +199,7 @@ section{position:relative}
 .intro{padding:150px 0}
 .intro-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:80px;align-items:center}
 .intro-media{position:relative;height:620px}
-.intro-media .m1{position:absolute;inset:0 18% 12% 0;border-radius:var(--r-lg)}
-.intro-media .m2{position:absolute;width:48%;height:46%;right:0;bottom:0;border-radius:var(--r-lg);border:8px solid var(--cream);box-shadow:var(--shadow-lg)}
+.intro-media .m1{position:absolute;inset:0;border-radius:var(--r-lg)}
 .intro-badge{position:absolute;top:30px;right:6%;width:130px;height:130px;border-radius:50%;background:var(--ink);color:var(--cream);display:grid;place-items:center;text-align:center;z-index:3}
 .intro-badge svg{position:absolute;inset:0;animation:spin 18s linear infinite}
 .intro-badge b{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1}
@@ -406,10 +405,7 @@ footer{background:var(--ink);color:var(--cream);padding:100px 0 40px;border-radi
   .hero-meta{gap:20px;flex-wrap:wrap}
   .hero-visual{height:470px}
   .rating-chip{left:4%;top:auto;bottom:40%;width:150px}
-  .hero-products .fw1{transform:scale(.62);transform-origin:bottom right}
-  .pedestal{width:220px;height:220px}
   .book-products{transform:scale(.75);transform-origin:left bottom}
-  .hero-products .fw2{transform:scale(.62);transform-origin:bottom right}
   .section-head,.shop-head{flex-direction:column;align-items:flex-start}
   .panel.active,.doc-grid,.steps,.stats{grid-template-columns:1fr}
   .intro{padding:100px 0}
@@ -489,13 +485,6 @@ footer{background:var(--ink);color:var(--cream);padding:100px 0 40px;border-radi
         <b>4.9</b>
         <small>2,400+ Google reviews</small>
       </div>
-
-      <!-- floating 3D products -->
-      <div class="hero-products">
-        <div class="pedestal" data-speed="0.04"></div>
-        <div class="float-wrap fw1"><div class="prod-wrap"><div class="floaty " style="--rot:5deg"><div class="prod" data-tilt style="--w:260px"><img src="img/p-serum.webp" onerror="this.onerror=null;this.src='img/p-serum.png'" alt="Aurelle Vitamin C 15% serum" width="760" height="760" loading="eager" decoding="async"><span class="shadow"></span></div></div></div></div>
-        <div class="float-wrap fw2"><div class="prod-wrap"><div class="floaty d2" style="--rot:-4deg"><div class="prod" data-tilt style="--w:210px"><img src="img/p-cream.webp" onerror="this.onerror=null;this.src='img/p-cream.png'" alt="Aurelle ceramide barrier cream" width="760" height="760" loading="eager" decoding="async"><span class="shadow"></span></div></div></div></div>
-      </div>
     </div>
   </div>
 </section>
@@ -514,9 +503,6 @@ footer{background:var(--ink);color:var(--cream);padding:100px 0 40px;border-radi
     <div class="intro-media">
       <div class="m1 ph mask-reveal" data-speed="-0.05">
         <img src="img/treatment-room.webp" onerror="this.onerror=null;this.src='img/treatment-room.jpg'" alt="Aurelle treatment suite" width="1000" height="1000" loading="lazy" decoding="async">
-      </div>
-      <div class="m2 ph" data-reveal="zoom" data-speed="0.07">
-        <img src="img/t-pigmentation.webp" onerror="this.onerror=null;this.src='img/t-pigmentation.jpg'" alt="Radiant skin after treatment" width="800" height="600" loading="lazy" decoding="async">
       </div>
       <div class="intro-badge" data-reveal="zoom">
         <svg viewBox="0 0 130 130"><defs><path id="c" d="M65,65 m-52,0 a52,52 0 1,1 104,0 a52,52 0 1,1 -104,0"/></defs><text font-size="10.5" letter-spacing="3.2" fill="#F3DCD3" font-family="Inter"><textPath href="#c">BOARD-CERTIFIED · DERMATOLOGISTS · </textPath></text></svg>
